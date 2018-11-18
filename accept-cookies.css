@@ -22,7 +22,7 @@
   margin: 25px auto;
 }
 
-.accept-cookies .accept-cookies__action button {
+.accept-cookies .accept-cookies__button {
   border-radius: 15px;
   border: none;
   padding: 3px 15px;
@@ -76,7 +76,7 @@
   margin: 25px auto;
 }
 
-.accept-cookies .accept-cookies__action button {
+.accept-cookies .accept-cookies__button {
   border-radius: 15px;
   border: none;
   padding: 3px 15px;
@@ -84,7 +84,7 @@
   color: #000000;
 }
 
-.accept-cookies .accept-cookies__action button:focus {
+.accept-cookies .accept-cookies__button:focus {
   outline: none;
 }
 

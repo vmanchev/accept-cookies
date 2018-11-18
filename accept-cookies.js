@@ -73,7 +73,7 @@
                     + getMessage()
                   + '</div>'
                   + '<div class="accept-cookies__action">' 
-                    + '<button>'+buttonText+'</button>'
+                    + '<button class="accept-cookies__button">'+buttonText+'</button>'
                   + '</div>'
                 + '</div>';
 
@@ -81,7 +81,7 @@
     document.body.innerHTML += html;
 
     // add button click event listener
-    document.getElementsByClassName('accept-cookies')[0].addEventListener('click', function() {
+    document.getElementsByClassName('accept-cookies__button')[0].addEventListener('click', function() {
       acceptCookies();
     });
 
