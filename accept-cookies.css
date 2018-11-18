@@ -1,6 +1,57 @@
 .accept-cookies {
   position: fixed;
   display: block;
+  bottom: -100px;
+  left: 0;
+  right: 0;
+  background-color: #000;
+  color: #fff;
+  z-index: 9999;
+  padding: 15px;
+}
+
+.accept-cookies .accept-cookies__text {
+  width: 100%;
+  display: block;
+}
+
+.accept-cookies .accept-cookies__action {
+  width: 100%;
+  display: block;
+  text-align: center;
+  margin: 25px auto;
+}
+
+.accept-cookies .accept-cookies__action button {
+  border-radius: 15px;
+  border: none;
+  padding: 3px 15px;
+  background-color: "#ffffff";
+  color: #000000;
+}
+
+@media screen and (min-width: 576px) {
+  .accept-cookies {
+    display: table;
+    width: 100%;
+  }
+
+  .accept-cookies .accept-cookies__text {
+    width: 65%;
+    display: table-cell;
+    padding-right: 15px;
+  }
+
+  .accept-cookies .accept-cookies__action {
+    width: 20%;
+    display: table-cell;
+    vertical-align: middle;
+    margin: 0;
+  }
+}
+.accept-cookies {
+  position: fixed;
+  display: block;
 
   /* this value correlates with alertPosition variable in accept-cookies.js file */
   bottom: -100px;
@@ -31,6 +82,10 @@
   padding: 3px 15px;
   background-color: "#ffffff";
   color: #000000;
+}
+
+.accept-cookies .accept-cookies__action button:focus {
+  outline: none;
 }
 
 @media screen and (min-width: 576px) {
