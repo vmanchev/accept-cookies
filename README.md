@@ -3,6 +3,9 @@
 ## Description
 Displays an alert at the bottom of your website, which informs the user about website cookies. Provides a link to cookies policy page and a button to accept the policy.
 
+## Demo
+![Demo](https://github.com/vmanchev/accept-cookies/blob/master/demo.gif)
+
 ## Installation
 
 Add the both files to your HTML code, for example:
