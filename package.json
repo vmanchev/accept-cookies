@@ -1,0 +1,26 @@
+{
+  "name": "accept-cookies",
+  "version": "0.0.1",
+  "description": "Accept cookies alert",
+  "main": "accept-cookies.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vmanchev/accept-cookies.git"
+  },
+  "keywords": [
+    "cookies",
+    "consent",
+    "accept",
+    "gdpr",
+    "eu"
+  ],
+  "author": "Venelin Manchev <venelinphp@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vmanchev/accept-cookies/issues"
+  },
+  "homepage": "https://github.com/vmanchev/accept-cookies#readme"
+}
