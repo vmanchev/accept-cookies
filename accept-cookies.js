@@ -101,7 +101,7 @@
   /**
    * Accept button handler
    * 
-   * 1. Sets the cookie with expiration date in 10 years.
+   * 1. Sets the cookie with expiration date in 13 months.
    * 2. Removes the alert.
    */
   function acceptCookies() {
@@ -110,13 +110,13 @@
   }
 
   /**
-   * Calculates the expiration date as 10 years from now
+   * Calculates the expiration date as 13 months from now
    * 
    * @return string Date in UTC
    */
   function getExpirationDate() {
     var date = new Date();
-    date.setTime(date.getTime() + 315360000000);
+    date.setTime(date.getTime() + 33696000000);
     return date.toUTCString();
   }
 
