@@ -1,0 +1,24 @@
+{
+  "name": "accept-cookies",
+  "main": "accept-cookies.js",
+  "homepage": "https://github.com/vmanchev/accept-cookies",
+  "authors": [
+    "Venelin Manchev <venelinphp@gmail.com>"
+  ],
+  "description": "Accept cookies alert",
+  "keywords": [
+    "cookies",
+    "consent",
+    "accept",
+    "gdpr",
+    "eu"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
